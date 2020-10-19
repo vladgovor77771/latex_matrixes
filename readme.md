@@ -42,7 +42,7 @@ Example of .tex you can find in `./example` folder in this repo.
 
 # Contribution
 
-All bags can be passed to Github issues. If you want to add a feature, create merge request.
+All bugs can be passed to Github issues. If you want to add a feature, create merge request.
 
 # Todo
 
