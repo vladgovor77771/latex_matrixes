@@ -22,7 +22,7 @@ It is allowed to pass fractions.
 module.exports = {
   operation: "canonical",
   // operation: "triangle",
-  maxCountOnLine: 2, // how many matrixed to render on each line
+  maxCountOnLine: 2, // how many matrixes to render on each line
   matrix: [
     [-5, -12, -4, -2, -11],
     [-1, -19, 2, -5, 20],
