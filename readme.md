@@ -51,4 +51,4 @@ All bugs can be passed to Github issues. If you want to add a feature, create me
 - determinant
 - LU decomposition
 - perform parameters in matrix elements
-- perform several transformations in `\substack{}`
+- collect several transformations in `\substack{}`
