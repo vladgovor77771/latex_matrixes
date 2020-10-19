@@ -14,6 +14,24 @@ cp input.example.js input.js // or create input.js and copy all content
 node index.js
 ```
 
+# Input data
+
+It is allowed to pass fractions.
+
+```js
+module.exports = {
+  operation: "canonical",
+  // operation: "triangle",
+  maxCountOnLine: 2, // how many matrixed to render on each line
+  matrix: [
+    [-5, -12, -4, -2, -11],
+    [-1, -19, 2, -5, 20],
+    [5, -4, -1, -5, 17],
+    [-1, -2, 3, 1, 5],
+  ],
+};
+```
+
 # Example of result
 
 ![Rendered](example/example_rendered.png)
@@ -31,4 +49,5 @@ All bags can be passed to Github issues. If you want to add a feature, create me
 - transpose
 - inverse
 - determinant
+- LU decomposition
 - perform parameters in matrix elements
